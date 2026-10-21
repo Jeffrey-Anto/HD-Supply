@@ -8,7 +8,7 @@ function AttendeeList({attendee, deleteAttendee}){
                 return(
                     <div key={index}>
                         <p>{student.name}</p>
-                        <button onClick={(student)=> deleteAttendee(student)}>Delete</button>
+                        <button onClick={()=> deleteAttendee(student.id)}>Delete</button>
                         <hr />
                     </div>
                 );

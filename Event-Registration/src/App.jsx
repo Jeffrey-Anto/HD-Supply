@@ -23,9 +23,8 @@ function addNewAttendee(newEntry){
   
 }
 
-function deleteAttendee(student){
-  console.log(student.id);
-  attendee.filter((attendee)=>attendee.id!==student.id);
+function deleteAttendee(id){
+  setAttendee(attendee.filter((attendee)=>attendee.id!==id));
 }
 
   return (
