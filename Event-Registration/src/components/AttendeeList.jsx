@@ -1,4 +1,4 @@
-import { useState } from "react";
+import '../App.css'
 function AttendeeList({attendee, deleteAttendee}){
 
     return(
@@ -8,7 +8,7 @@ function AttendeeList({attendee, deleteAttendee}){
                 return(
                     <div key={index}>
                         <p>{student.name}</p>
-                        <button onClick={()=> deleteAttendee(student.id)}>Delete</button>
+                        <button onClick={()=> deleteAttendee(student.id)}>Cancel</button>
                         <hr />
                     </div>
                 );

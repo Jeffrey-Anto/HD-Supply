@@ -29,6 +29,7 @@ function deleteAttendee(id){
 
   return (
     <>
+      <div className='event-info'> Hip Hop Thamizha Concert</div>
       <AttendeeForm attendee={attendee} addAttendee={addNewAttendee} />
       <AttendeeList attendee={attendee} deleteAttendee={deleteAttendee} />
     </>
