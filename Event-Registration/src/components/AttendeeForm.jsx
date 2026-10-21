@@ -15,6 +15,11 @@ function AttendeeForm({attendee , addAttendee }){
         name && addAttendee(newEntry);
     }
 
+    const[search,setSearch] = useState([])
+
+    function searchAttendee(){
+        const searchItem= attendee.filter();
+    }
     
     
     return(
